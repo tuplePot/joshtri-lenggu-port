@@ -6,9 +6,9 @@ export const site = {
   url: "https://joshtrilenggu.com",
   portfolioUrl: "https://portfolio.joshtrilenggu.com",
   blogUrl: "https://blog.joshtrilenggu.com",
-  githubUrl: "https://github.com/joshtrilenggu",
+  githubUrl: "https://github.com/Joshtri",
   githubUser: "joshtrilenggu",
-  linkedinUrl: "https://www.linkedin.com/in/joshtrilenggu",
+  linkedinUrl: "https://id.linkedin.com/in/arpakhsad-joshtri-sugiatma-lenggu-771242201",
   email: "hello@joshtrilenggu.com",
   tagline: "Building software, sharing knowledge, creating products.",
   description:
