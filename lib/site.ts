@@ -7,9 +7,9 @@ export const site = {
   portfolioUrl: "https://portfolio.joshtrilenggu.com",
   blogUrl: "https://blog.joshtrilenggu.com",
   githubUrl: "https://github.com/Joshtri",
-  githubUser: "joshtrilenggu",
+  githubUser: "Joshtri",
   linkedinUrl: "https://id.linkedin.com/in/arpakhsad-joshtri-sugiatma-lenggu-771242201",
-  email: "hello@joshtrilenggu.com",
+  email: "joshtrilenggu@proton.me",
   tagline: "Building software, sharing knowledge, creating products.",
   description:
     "The personal technology ecosystem of Joshtri Lenggu — full-stack web development, freelance builds (desktop included), technical writing, and open source.",
@@ -25,7 +25,7 @@ export const socials = [
   {
     label: "GitHub",
     href: site.githubUrl,
-    handle: "@joshtrilenggu",
+    handle: "@Joshtri",
     description: "Repositories, libraries, and experiments.",
   },
   {
