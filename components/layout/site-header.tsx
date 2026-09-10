@@ -1,13 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUpRight, Bars, Xmark } from "@gravity-ui/icons";
-import { cn } from "@/lib/utils";
-import { navLinks, site } from "@/lib/site";
-import { BrandMark } from "@/components/ui/brand-mark";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { GithubIcon } from "@/components/ui/github-icon";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { navLinks, site } from "@/lib/site";
+import { cn } from "@/lib/utils";
+import { ArrowUpRight, Bars, Xmark } from "@gravity-ui/icons";
+import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);

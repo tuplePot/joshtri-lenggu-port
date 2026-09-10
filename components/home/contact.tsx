@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/button";
 
 export function Contact() {
   return (
-    <Section id="contact" className="scroll-mt-20" contentClassName="!max-w-5xl">
+    <Section
+      id="contact"
+      className="scroll-mt-20"
+      contentClassName="!max-w-5xl"
+    >
       <Reveal>
         <div className="border-2 border-foreground bg-card">
           <div className="flex items-center justify-between border-b-2 border-foreground px-6 py-3 font-mono text-xs font-bold uppercase tracking-[0.2em] sm:px-10">
@@ -28,10 +32,16 @@ export function Contact() {
               The inbox is open.
             </p>
 
-            <div className="mt-9">
-              <Button href={`mailto:${site.email}`} size="lg">
-                <Envelope className="h-4 w-4" />
-                {site.email}
+            <div className="mt-9 max-w-full">
+              <Button
+                href={`mailto:${site.email}`}
+                size="lg"
+                className="w-full max-w-full justify-center gap-2 sm:w-auto sm:justify-start"
+              >
+                <Envelope className="h-4 w-4 shrink-0" />
+                <span className="truncate sm:whitespace-normal sm:break-all">
+                  {site.email}
+                </span>
               </Button>
             </div>
           </div>

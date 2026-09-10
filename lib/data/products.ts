@@ -46,7 +46,7 @@ export const products: Product[] = [
   {
     id: "open-source",
     name: "Open Source",
-    tagline: "github.com/joshtrilenggu",
+    tagline: "github.com/Joshtri",
     description:
       "Repositories, libraries, and experiments released into the open — built in public, maintained with care.",
     status: "live",
