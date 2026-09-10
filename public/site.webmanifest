@@ -1,0 +1,16 @@
+{
+  "name": "Joshtri Lenggu",
+  "short_name": "Joshtri",
+  "description": "The personal technology ecosystem of Joshtri Lenggu — full-stack web development, freelance builds, technical writing, and open source.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#100f0c",
+  "theme_color": "#100f0c",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

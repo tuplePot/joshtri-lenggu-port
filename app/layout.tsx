@@ -48,6 +48,12 @@ export const metadata: Metadata = {
   publisher: site.name,
   authors: [{ name: site.name, url: site.url }],
   alternates: { canonical: site.url },
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+  },
   category: "technology",
   openGraph: {
     type: "website",
